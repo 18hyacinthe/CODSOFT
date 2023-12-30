@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+#section{
+    background-color: aqua;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    padding: 0 15px 0 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#main{
+    width: 300px;
+    height: 300px;
+    background-color: cadetblue;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    border: 5px solid black;
+}
+input{
+    width: 20%;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 6px;
+}
+#eee{
+    width: 93%;
+    height: 50px;
+    background-color: silver;
+}

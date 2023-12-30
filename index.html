@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <div id="section">
+        <h1>CALCULATOR</h1>
+    </div>
+    <div id="main">
+        <form name="f">
+            <input type="text" name="display" placeholder="0" id="eee"> <br>
+            <input type="button" value="1" onclick="f.display.value +=1">
+            <input type="button" value="2" onclick="f.display.value +=2">
+            <input type="button" value="3" onclick="f.display.value +=3">
+            <input type="button" value="+" onclick="add()">
+            <br>
+            <input type="button" value="4" onclick="f.display.value +=4">
+            <input type="button" value="5" onclick="f.display.value +=5">
+            <input type="button" value="6" onclick="f.display.value +=6">
+            <input type="button" value="-" onclick="sub()">
+            <br>
+            <input type="button" value="7" onclick="f.display.value +=7">
+            <input type="button" value="8" onclick="f.display.value +=8">
+            <input type="button" value="9" onclick="f.display.value +=9">
+            <input type="button" value="/" onclick="div()">
+            <br>
+            <input type="button" value="C" onclick="f.display.value =''">
+            <input type="button" value="O" onclick="f.display.value +=0">
+            <input type="button" value="=" onclick="f.display.value =eval(f.display.value)">
+            <input type="button" value="X" onclick="mul()">
+            <br>
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
